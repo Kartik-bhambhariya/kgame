@@ -1,7 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script>
+function myFunction() {
+  var x = document.getElementById("nav-link");
+  x.classList.toggle("show");
+  
+}
 
+</script>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,12 +25,15 @@
                 <span class="logo-name">ez777-game.in</span>
           
         </div>
-        <ul class="nav-link">
+        <ul class="nav-link" id="nav-link">
             <li><a href="about.html">About Me</a></li>
             <li><a href="dis.html">Disclaimer</a></li>
             <li><a href="index.html">EZ-777 Game Apk</a></li>
             <li><a href="index.html">Home</a></li>
         </ul>
+           <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+  <i class="fa fa-bars"></i>
+</a>
     </nav>
       <div class="line"></div>
 <div class="disclaimer-container">
